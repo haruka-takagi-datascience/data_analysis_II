@@ -1,6 +1,6 @@
 ---
 title: "An Investigation into the EU Power Sector and its Clean Energy Status"
-author: "Haruka Takagi - 1005053022"
+author: "Haruka Takagi"
 date: "April 13, 2021"
 output:
   pdf_document: default
