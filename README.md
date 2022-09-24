@@ -369,6 +369,7 @@ Some of the key results from this investigative report were the following.
 Thus we can reasonably conclude that clean renewable energy production integration is going very well in the European Union and has progressed beyond expectation. In terms of the big picture, the path to sustainable living is not something the European Union alone can fix. Thus, perhaps the success of clean energy production integration in the EU will be a good successful example for the countries outside the EU attempting to increase the proportion of clean renewable energy production. All in all, results are much more uplifting and promising than many would had imagined. 
 
 ## Weaknesses
+
 One weakness in this report was the informative prior used to determine the posterior distribution in the bayesian credible interval. The validity of the informative prior was questionable, and more research should have been done to either determine a better informative prior or perhaps start with a non-informative prior may had been better.
 
 Another weakness is the lack of data points in the simple linear regression model. The dataset only have data points for three years, and thus was not fir for simple linear regression. An improvement would be to collect more data for different years and redo the linear regression. 
