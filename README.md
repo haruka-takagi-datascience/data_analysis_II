@@ -140,6 +140,7 @@ The next section will describe the methodologies used in the investigation.
 
 ## Methods
 
+### Confidence Interval
 To answer the research question, on average, what is the proportion of annual conventional thermal energy
 production across the EU nations in 2018, we will be using a statistical method called bootstrap confidence
 intervals.
