@@ -309,38 +309,7 @@ This is interesting, as this means that it is nor necessarily that all the EU me
 We mentioned the relevant assumptions in the methodology section, and since both were clearly fulfilled, the results of this goodness of fit test gains more credibility. 
 
 ### Bayesian Credible Interval
-<img src="images/img_10Here we will be investigating the research question, what is the estimated proportion of EU countries in 2018 that have met their renewable energy production targets? As explained in the methods section, we converted the proportion of clean energy production in 2018 to a binary dataset. 
-
-From our method section and Section 2 of the Appendix, we know that the posterior distribution of $\theta$ is equal to $beta(\theta|x+a, n-x+b)$. Thus, $P(\theta|X) = beta(\theta|x+a, n-x+b)$.
-
-Based on our prior, a = 12, b = 16. Based on our sample data, x = 9 and n = 37. Thus, $P(\theta|X) = beta(\theta|9+12, 37-9+16) = beta(\theta|21, 44) = beta(21, 44)$.
-
-Thus, the range of values for the 95% credible interval was (0.2158720, 0.4405944). Hence we interpret this result such that, 95% probability that the true proportion of EU countries that have met their target in 2018 is between 0.2158720 and 0.4405944 based on prior information. 
-
-This is a very promising result as the interval is above 20%. Thus, we can conclude from this analysis that a significant number of countries have most likely succeeded in achieving their target for the proportion of clean energy production. The results seem very reasonable since the analysis of our past methods have also shown promising results that indicate that clean energy production has been heavily promoted in the EU member states. 
-
-We mentioned the relevant assumptions in the methodology section, and since the informative prior is from a trusted source and contained information that is very relevant to the distribution of the posterior, we deem this assumption as fulfilled. 
-          
-          ## Conclusions
-          At the start of this investigative report, our overarching hypothesis was that we have not progressed fast or far enough in renewable energy production. And the claims made by government officials about our progress is questionable as it does not necessarily align with our data.  
-
-Through our methodologies, we used bootstrap confidence intervals, maximum likelihood estimation, hypothesis tests, simple linear regression, goodness of fit tests and bayesian credible intervals to test the research questions mentioned at many points in this report.  
-
-Overall, we were able to conclude that our hypothesis was incorrect, and have produced promising results that show that clean energy production has continued to become integrated into EU member nations to promote sustainable living.  
-
-Some of the key results from this investigative report were the following.  
-1. We are 95% confident that the true mean of the proportion of conventional thermal energy production of EU nations in 2018 is between 0.1539138 and 0.2252866.  
-2. We were able to determine that the average proportion of non-clean energy production across the EU nations in 2017 was 0.2641193.  
-3. The average proportion of clean energy production is not something that changes very rapidly as the years so go by.  
-4. given that the the distribution of {A, B, C} is {1/3, 1/3, 1/3}, the probability that we will observe this sample is about 45%. This means that it is plausible that the distribution of grades for the proportion of clean energy production may be distributed equally.  
-
-Thus we can reasonably conclude that clean renewable energy production integration is going very well in the European Union and has progressed beyond expectation. In terms of the big picture, the path to sustainable living is not something the European Union alone can fix. Thus, perhaps the success of clean energy production integration in the EU will be a good successful example for the countries outside the EU attempting to increase the proportion of clean renewable energy production. All in all, results are much more uplifting and promising than many would had imagined. 
-          
-          ## Weaknesses
-          
-          One weakness in this report was the informative prior used to determine the posterior distribution in the bayesian credible interval. The validity of the informative prior was questionable, and more research should have been done to either determine a better informative prior or perhaps start with a non-informative prior may had been better.
-
-Another weakness is the lack of data points in the simple linear regression model. The dataset only have data points for three years, and thus was not fir for simple linear regression. An improvement would be to collect more data for different years and redo the linear regression. .png">
+<img src="images/img_10.png">
 Here we will be investigating the research question, what is the estimated proportion of EU countries in 2018 that have met their renewable energy production targets? As explained in the methods section, we converted the proportion of clean energy production in 2018 to a binary dataset. 
 
 From our method section and Section 2 of the Appendix, we know that the posterior distribution of $\theta$ is equal to $beta(\theta|x+a, n-x+b)$. Thus, $P(\theta|X) = beta(\theta|x+a, n-x+b)$.
@@ -369,7 +338,6 @@ Some of the key results from this investigative report were the following.
 Thus we can reasonably conclude that clean renewable energy production integration is going very well in the European Union and has progressed beyond expectation. In terms of the big picture, the path to sustainable living is not something the European Union alone can fix. Thus, perhaps the success of clean energy production integration in the EU will be a good successful example for the countries outside the EU attempting to increase the proportion of clean renewable energy production. All in all, results are much more uplifting and promising than many would had imagined. 
 
 ## Weaknesses
-
 One weakness in this report was the informative prior used to determine the posterior distribution in the bayesian credible interval. The validity of the informative prior was questionable, and more research should have been done to either determine a better informative prior or perhaps start with a non-informative prior may had been better.
 
 Another weakness is the lack of data points in the simple linear regression model. The dataset only have data points for three years, and thus was not fir for simple linear regression. An improvement would be to collect more data for different years and redo the linear regression. 
