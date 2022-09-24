@@ -245,10 +245,6 @@ We also know from the same report that in 2018, among the 28 EU member states, 1
 
 Assume we are interested in finding a 95% credible interval of the parameter $\theta$ such that $\theta = P(Country meets clean energy target)$. Since the beta distribution is a conjugate prior of the binomial distribution, this means that is the likelihood is function is binomial and the prior is a beta distribution, then the posterior is also a beta distribution. (Orloff)
 
-We know that $Posterior = P(\theta|X) = \frac{P(X|\theta)*P(\theta)}{P(X)}$ such that $P(X|\theta) = L(\theta)$ and $P(\theta) = Prior$
-
-Thus, the posterior distribution of $\theta$ is equal to $beta(\theta|x+a, n-x+b)$. Thus we can use the 2.5 and 97.5 percentiles of this distribution to derive a range of values, in which $\theta$ has 95% probability of falling into. All derivations regarding the posterior distribution can be found in Section 2 of the Appendix.
-
 An important assumption regarding using an informative prior in bayesian credible interval is that the informative prior must somewhat be truthful. Thus, an incorrect prior assumption is detrimental to Bayesian credible intervals. In our case, our prior is a good guideline for our parameter of interest, so this assumption is fulfilled. 
 
 ## Results
