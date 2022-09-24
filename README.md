@@ -247,7 +247,8 @@ Assume we are interested in finding a 95% credible interval of the parameter $\t
 
 We know that $Posterior = P(\theta|X) = \frac{P(X|\theta)*P(\theta)}{P(X)}$ such that $P(X|\theta) = L(\theta)$ and $P(\theta) = Prior$
 
-Since $L(\theta) = \theta^{x}*(1-\theta)^{n-x}$ and $Prior = \theta^{a}*(1-\theta)^{b}$ such that a = number of countries meeting target in prior, b = number of countries not meeting target in prior, x = number of countries meeting target in sample data and n = sample size.
+Since $L(\theta) = \theta^{x}*(1-\theta)^{n-x}$ and $Prior = \theta^{a}*(1-\theta)^{b}$
+such that a = number of countries meeting target in prior, b = number of countries not meeting target in prior, x = number of countries meeting target in sample data and n = sample size.
 
 Thus, the posterior distribution of $\theta$ is equal to $beta(\theta|x+a, n-x+b)$. Thus we can use the 2.5 and 97.5 percentiles of this distribution to derive a range of values, in which $\theta$ has 95% probability of falling into. All derivations regarding the posterior distribution can be found in Section 2 of the Appendix.
 
