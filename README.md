@@ -247,9 +247,6 @@ Assume we are interested in finding a 95% credible interval of the parameter $\t
 
 We know that $Posterior = P(\theta|X) = \frac{P(X|\theta)*P(\theta)}{P(X)}$ such that $P(X|\theta) = L(\theta)$ and $P(\theta) = Prior$
 
-Since $L(\theta) = \theta^{x}*(1-\theta)^{n-x}$ and $Prior = \theta^{a}*(1-\theta)^{b}$
-such that a = number of countries meeting target in prior, b = number of countries not meeting target in prior, x = number of countries meeting target in sample data and n = sample size.
-
 Thus, the posterior distribution of $\theta$ is equal to $beta(\theta|x+a, n-x+b)$. Thus we can use the 2.5 and 97.5 percentiles of this distribution to derive a range of values, in which $\theta$ has 95% probability of falling into. All derivations regarding the posterior distribution can be found in Section 2 of the Appendix.
 
 An important assumption regarding using an informative prior in bayesian credible interval is that the informative prior must somewhat be truthful. Thus, an incorrect prior assumption is detrimental to Bayesian credible intervals. In our case, our prior is a good guideline for our parameter of interest, so this assumption is fulfilled. 
@@ -297,13 +294,7 @@ Here we will be investigating the research question, is the distribution of grad
 
 Thus, our null hypothesis is that the distribution of {A, B, C} is {1/3, 1/3, 1/3}. And our alternative hypothesis is that the distribution of {A, B, C} is not {1/3, 1/3, 1/3}. We observed from our output that the distribution of the grades in the observed sample is, A: 9, B: 15, C: 13.  
 
-Thus, the likelihood of the theoretical distribution is,  $(0.3333^{9})*(0.3333^{15})*(0.3333^{13}) = 2.220821*10^{-18}$.
-
-And, the likelihood of the observed sampling distribution is, $(\frac{9}{37}^{9})*(\frac{15}{37}^{15})*(\frac{13}{37}^{13}) = 4.868008*10^{-18}$
-
-Therefore, $test statistic = -2*(log{(2.220821*10^{-18})} - log{(4.868008*10^{-18}}) = 1.569616$
-
-Hence, the chi-squared p-value is $0.4562074$. This is q very large value, and thus there is not enough evidence to reject the null hypothesis. We interpret the results as follows, given that the null hypothesis is true, the probability that we will observe this sample is about 45%, thus it is plausible. More intuitively, this means that it is very plausible that the distribution of {A, B, C} could be {1/3, 1/3, 1/3}. 
+The chi-squared p-value is $0.4562074$. This is q very large value, and thus there is not enough evidence to reject the null hypothesis. We interpret the results as follows, given that the null hypothesis is true, the probability that we will observe this sample is about 45%, thus it is plausible. More intuitively, this means that it is very plausible that the distribution of {A, B, C} could be {1/3, 1/3, 1/3}. 
 
 This is interesting, as this means that it is nor necessarily that all the EU member nations are doing poorly in achieving the target renewable energy production proportions, but that there are countries that are doing very well and very poorly at similar frequencies. This could perhaps give evidence that support and subsidies were only given to EU nations struggling to meet the target, that may be sufficient support to increase the proportion of clean energy production. This means, that support may not be needed for all nations, but only a few, drastically reducing potential costs. 
 
