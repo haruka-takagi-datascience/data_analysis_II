@@ -1,5 +1,4 @@
-# An Investigation into the EU Power Sector and its Clean Energy
-Status
+# An Investigation into the EU Power Sector and its Clean Energy Status
 
 ## Abstract
 
