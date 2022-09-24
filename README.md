@@ -370,56 +370,5 @@ This concludes, the investigative report into the European Union Power Sector an
 
 9. Orloff, Jeremy. “Conjugate Priors: Beta and Normal  .” Class 15, 18.05. Class 15, 18.05, 10 Apr. 2021.   
 
-## Appendix
-
-### Section 1 
-
-It is given that we assume that $X_1,...,X_n \stackrel{iid}{\sim} Normal(\mu, \sigma^2)$. We want to derive the maximum likelihood estimator of $\mu$.
-
-$Normal(\mu, \sigma^2)$ gives us the following.   
-  
-$$f(x) = \frac{1}{\sigma\sqrt{2\pi}}exp[-(\frac{1}{2\sigma^2}(x-\mu)^2)]$$
-  
-The likelihood function is as follows,  
-$$L(\mu\vert X_1,...,X_n) = L_{X_1,...,X_n}(X_1,...,X_n)$$
-
-$$L(\mu\vert X_1,...,X_n) =  [\frac{1}{\sigma\sqrt{2\pi}}exp[-((X_{1}-\mu)^2\frac{1}{2\sigma^2})]][\frac{1}{\sigma\sqrt{2\pi}}exp[-((X_{2}-\mu)^2\frac{1}{2\sigma^2})]]...[\frac{1}{\sigma\sqrt{2\pi}}exp[-((X_{n}-\mu)^2\frac{1}{2\sigma^2})]]$$
-
-$$L(\mu\vert X_1,...,X_n) = (\frac{1}{\sigma\sqrt{2\pi}}^n)(e^{(-\frac{1}{2\sigma^2})n {(\bar{X}-\mu)^2}})$$
-
-Hence, $L(\mu) = (\frac{1}{\sigma\sqrt{2\pi}}^n)(e^{(-\frac{1}{2\sigma^2})n {(\bar{X}-\mu)^2}})$ is the likelihood function of $\mu$
-
-We want to derive the log-likelihood function of $\mu$.
-
-$$e(\mu) = log(L(\mu))$$
-
-$$e(\mu) = nln(\frac{1}{\sigma\sqrt{2\pi}}) + (-\frac{1}{2\sigma^2})n \sum_{i=1}^n (x_{j}-\mu)^2$$ 
-
-Hence, partial derivative of the log-likelihood with respect to $\mu$ if the following.
-
-$$\displaystyle \frac{\partial l}{\partial \mu}(-\frac{n}{2}*ln(2\pi) - \frac{n}{2}*ln(\sigma^2) - \frac{1}{2\sigma^2} \sum_{i=1}^n (x_{i}-\mu)^2) = \frac{1}{\sigma^2} \sum_{i=1}^n (x_{i}-\mu)$$
-
-$$\displaystyle \frac{\partial l}{\partial \mu} = \frac{1}{\sigma^2}(\sum_{i=1}^n x_{i}-n\mu)$$ can only be zero if,   
-
-$$\sum_{i=1}^n x_{i}-n\mu = 0$$ Thus, it is implied that $$\mu = \frac{1}{n} \sum_{i=1}^n x_{i}$$ Which is the sample mean.
-
-
-
-### Section 2 
-
-It is given that, $P(\theta|X) = \frac{P(X|\theta)*P(\theta)}{P(X)}$ such that, $P(\theta|X)$ is the posterior distribution, $P(X|\theta)$ is the likelihood function, $P(\theta)$ is the prior distribution, and $P(X)$ is the normalizing constant.
-
-Furthermore, $$L(\theta) = \theta^{x}*(1-\theta)^{n-x}$$ such that, x = number of countries meeting target in sample data and n = sample size.  
-
-And, $$P(\theta) = \theta^{a}*(1-\theta)^{b}$$ such that a = number of countries meeting target in prior, b = number of countries not meeting target in prior.
-
-Thus, $$P(\theta|X) = \frac{(\theta^{x}*(1-\theta)^{n-x})*(\theta^{a}*(1-\theta)^{b})}{P(X)}$$
-Then, omit the normalizing constant, thus posterior is now proportional to the output.
-
-Hence,  $$P(\theta|X) proportional to (\theta^{x}*(1-\theta)^{n-x})*(\theta^{a}*(1-\theta)^{b})$$ Since we are working with proportions, omitting the normalizing constant does no harm.
-
-Therefore, $$(\theta^{x}*(1-\theta)^{n-x})*(\theta^{a}*(1-\theta)^{b}) = (\theta^{x + a}*(1-\theta)^{n-x+b}) = beta(\theta|x+a, n-x+b)$$
-
-Concluding, $$P(\theta|X) = beta(\theta|x+a, n-x+b)$$
 
 
