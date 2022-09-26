@@ -358,5 +358,5 @@ This concludes, the investigative report into the European Union Power Sector an
 
 9. Orloff, Jeremy. “Conjugate Priors: Beta and Normal  .” Class 15, 18.05. Class 15, 18.05, 10 Apr. 2021.   
 
-
+Thank you for reading!
 
