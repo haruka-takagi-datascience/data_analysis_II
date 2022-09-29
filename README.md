@@ -88,7 +88,7 @@ for non-clean energy production types which included nuclear and conventional th
 
 We then end up with the dataset below. Here is a glimpse for a better idea.
 
-<img src="images/img_1.png" width="90%" height="90%">
+<img src="images/img_1.png" width="80%" height="80%">
 
 Here are some of the important variables. The year at the end of the variable names indicate the annual
 year the energy production proportion is from. To avoid repetition, the variables will be described without
