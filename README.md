@@ -266,7 +266,7 @@ We mentioned the relevant assumptions in the methodology section, and there is n
 Thus, we interpret the results, as quite good. The mean proportion of non-clean energy production is lower than expected, and gives more evidence that the EU nations are relying less on non-renewable energy production methods. 
 
 ### Hypothesis Test
-<img src="images/img_6.png" width="50%" height="50%">
+<img src="images/img_6.png" width="45%" height="45%">
 Here we will be investigating the research question, is the claim that in 2018, the share of renewable energy in the EU is up to 18%, a reliable/trustworthy claim? From our output above, we observed that the sample mean of the proportion of clean energy production in 2018 was 0.1514771 and that the sample standard deviation was 0.1100175. Since our dataset was small, we over-sampled to 200 data points with replacement. Thus, our sample size was 200. Using this we calculated the test statistic. Which is represented mathematically as follows,  
 $$test statistic = \frac{0.1514771 - 0.18}{\frac{0.1100175}{\sqrt{200}}}$$  
 
