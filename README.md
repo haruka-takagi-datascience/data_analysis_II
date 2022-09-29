@@ -88,7 +88,7 @@ for non-clean energy production types which included nuclear and conventional th
 
 We then end up with the dataset below. Here is a glimpse for a better idea.
 
-<img src="images/img_1.png">
+<img src="images/img_1.png" width="90%" height="90%">
 
 Here are some of the important variables. The year at the end of the variable names indicate the annual
 year the energy production proportion is from. To avoid repetition, the variables will be described without
@@ -104,7 +104,7 @@ energy production in a country for a certain year.
 
 Here is the numerical summary of the proportion of clean energy production for 2017.
 
-<img src="images/img_2.png">
+<img src="images/img_2.png" width="50%" height="50%">
 
 We can see that in 2017, the average proportion of clean energy production across the EU nations was 0.13360.
 What is more surprising is the spread of the data. The minimum proportion of clean energy production
