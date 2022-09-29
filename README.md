@@ -266,7 +266,7 @@ We mentioned the relevant assumptions in the methodology section, and there is n
 Thus, we interpret the results, as quite good. The mean proportion of non-clean energy production is lower than expected, and gives more evidence that the EU nations are relying less on non-renewable energy production methods. 
 
 ### Hypothesis Test
-<img src="images/img_6.png">
+<img src="images/img_6.png" width="50%" height="50%">
 Here we will be investigating the research question, is the claim that in 2018, the share of renewable energy in the EU is up to 18%, a reliable/trustworthy claim? From our output above, we observed that the sample mean of the proportion of clean energy production in 2018 was 0.1514771 and that the sample standard deviation was 0.1100175. Since our dataset was small, we over-sampled to 200 data points with replacement. Thus, our sample size was 200. Using this we calculated the test statistic. Which is represented mathematically as follows,  
 $$test statistic = \frac{0.1514771 - 0.18}{\frac{0.1100175}{\sqrt{200}}}$$  
 
@@ -275,8 +275,8 @@ Thus, the test-statistics was equal to -3.666457. Then the p-value was calculate
 We mentioned the relevant assumptions in the methodology section, and there is no indication that one of the assumptions were not fulfilled, as the statistical analysis looks very inline with theory. The only concerning point would be the assumption that the average proportion of clean energy production across the EU member states is the same as the proportion of clean energy production in the whole EU. However, nothing can be done without more data, so we will save this possible improvement to control for the size of the country for a furture investigation. 
 
 ### Linear Regression
-<img src="images/img_7.png">
-<img src="images/img_8.png">
+<img src="images/img_7.png" width="60%" height="60%">
+<img src="images/img_8.png" width="60%" height="60%">
 
 Here we will be investigating the research question, is the average proportion of annual clean energy production increasing over the years of 2016 to 2018 among the EU nations? As we can see from the scatter plot above, the line of best fit is very horizontal and appears to have no slope at all. This indicates that as year increases the average proportion of clean energy production does not seem to increase. We can also observe the output from our model. The intercept is 1.1370203 and the coefficient for year is -0.0004941. We will interpret this as the following. As year increases by one, the average proportion of clean energy production falls by -0.0004941. 
 
@@ -285,7 +285,7 @@ As we predicted, the simple linear regression method for this dataset is not the
 We mentioned the relevant assumptions in the methodology section, and as expected the lack of data values was detrimental to the effectiveness of the simple linear regression model. There are not enough data points in the sample size, thus we will disregard this statistical analysis from the investigation as it does not hold enough credibility. 
 
 ### Goodness of Fit Test
-<img src="images/img_9.png">
+<img src="images/img_9.png" width="60%" height="60%">
 Here we will be investigating the research question, is the distribution of grades for the proportion of clean energy production distributed equally? As explained in the method section of the goodness of fit test, we convert the initial numerical proportion of clean energy variable to a categorical variable. We give an A grade if the proportion of clean energy production is over or equal to 0.18. A B grade if the proportion of clean energy production is between 0.18 and 0.1. And a C grade if the proportion of clean energy production is between 0.1.
 
 Thus, our null hypothesis is that the distribution of {A, B, C} is {1/3, 1/3, 1/3}. And our alternative hypothesis is that the distribution of {A, B, C} is not {1/3, 1/3, 1/3}. We observed from our output that the distribution of the grades in the observed sample is, A: 9, B: 15, C: 13.  
