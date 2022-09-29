@@ -297,7 +297,7 @@ This is interesting, as this means that it is nor necessarily that all the EU me
 We mentioned the relevant assumptions in the methodology section, and since both were clearly fulfilled, the results of this goodness of fit test gains more credibility. 
 
 ### Bayesian Credible Interval
-<img src="images/img_10.png">
+<img src="images/img_10.png" width="50%" height="50%">
 Here we will be investigating the research question, what is the estimated proportion of EU countries in 2018 that have met their renewable energy production targets? As explained in the methods section, we converted the proportion of clean energy production in 2018 to a binary dataset. 
 
 From our method section and Section 2 of the Appendix, we know that the posterior distribution of $\theta$ is equal to $beta(\theta|x+a, n-x+b)$. Thus, $P(\theta|X) = beta(\theta|x+a, n-x+b)$.
