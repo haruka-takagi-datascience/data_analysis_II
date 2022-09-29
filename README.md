@@ -116,7 +116,7 @@ methods for about half of their annual energy production.
 
 Let’s observe the distribution of the proportion of clean energy production for 2017.
 
-<img src="images/img_3.png">
+<img src="images/img_3.png" width="50%" height="50%">
 
 The plot above is a histogram of the proportion of clean energy production in 2017. On the x-axis we have
 the proportion of clean energy production, and on the y-axis the frequency. The blue line in the graph
